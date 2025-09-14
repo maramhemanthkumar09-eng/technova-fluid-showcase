@@ -6,59 +6,59 @@
 
 @layer base {
   :root {
-    /* Base Colors */
-    --background: 0 0% 100%;
-    --foreground: 220 15% 15%;
+    /* Base Colors - Dark Neon Theme */
+    --background: 220 30% 5%;
+    --foreground: 200 100% 85%;
 
     /* Card System */
-    --card: 0 0% 100%;
-    --card-foreground: 220 15% 15%;
+    --card: 220 25% 8%;
+    --card-foreground: 200 100% 85%;
 
     /* Popover */
-    --popover: 0 0% 100%;
-    --popover-foreground: 220 15% 15%;
+    --popover: 220 25% 8%;
+    --popover-foreground: 200 100% 85%;
 
-    /* Primary - Tech Blue */
-    --primary: 220 100% 50%;
-    --primary-foreground: 0 0% 100%;
-    --primary-glow: 220 100% 60%;
+    /* Primary - Neon Blue */
+    --primary: 200 100% 60%;
+    --primary-foreground: 220 30% 5%;
+    --primary-glow: 190 100% 70%;
 
-    /* Secondary - Tech Silver */
-    --secondary: 210 10% 95%;
-    --secondary-foreground: 220 15% 15%;
+    /* Secondary - Dark Blue */
+    --secondary: 220 20% 15%;
+    --secondary-foreground: 200 100% 85%;
 
     /* Muted */
-    --muted: 210 10% 96%;
-    --muted-foreground: 220 10% 45%;
+    --muted: 220 15% 12%;
+    --muted-foreground: 200 50% 65%;
 
-    /* Accent - Electric Blue */
-    --accent: 210 100% 55%;
-    --accent-foreground: 0 0% 100%;
+    /* Accent - Electric Cyan */
+    --accent: 180 100% 60%;
+    --accent-foreground: 220 30% 5%;
 
     /* Destructive */
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
     /* Borders */
-    --border: 210 15% 90%;
-    --input: 210 15% 90%;
-    --ring: 220 100% 50%;
+    --border: 220 20% 20%;
+    --input: 220 20% 20%;
+    --ring: 200 100% 60%;
 
     /* Premium Colors */
-    --premium-gold: 45 100% 55%;
-    --premium-silver: 210 5% 85%;
-    --premium-dark: 220 25% 8%;
+    --premium-gold: 45 100% 65%;
+    --premium-silver: 200 30% 75%;
+    --premium-dark: 220 30% 3%;
 
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
-    --gradient-hero: linear-gradient(135deg, hsl(220 100% 50% / 0.1), hsl(210 100% 55% / 0.1));
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100% / 0.8), hsl(210 10% 96% / 0.6));
-    --gradient-tech: linear-gradient(90deg, hsl(220 100% 50%), hsl(210 100% 55%), hsl(200 100% 60%));
+    /* Gradients - Neon Enhanced */
+    --gradient-primary: linear-gradient(135deg, hsl(200 100% 60%), hsl(190 100% 70%), hsl(180 100% 60%));
+    --gradient-hero: linear-gradient(135deg, hsl(220 30% 5%), hsl(220 25% 8%), hsl(200 100% 60% / 0.1));
+    --gradient-card: linear-gradient(145deg, hsl(220 25% 8% / 0.9), hsl(220 20% 15% / 0.7));
+    --gradient-tech: linear-gradient(90deg, hsl(200 100% 60%), hsl(190 100% 70%), hsl(180 100% 60%));
 
-    /* Shadows */
-    --shadow-premium: 0 25px 50px -12px hsl(220 100% 50% / 0.15);
-    --shadow-glow: 0 0 30px hsl(var(--primary-glow) / 0.3);
-    --shadow-card: 0 10px 25px -5px hsl(220 15% 15% / 0.1);
+    /* Shadows - Enhanced Neon Glow */
+    --shadow-premium: 0 25px 50px -12px hsl(200 100% 60% / 0.4);
+    --shadow-glow: 0 0 40px hsl(var(--primary-glow) / 0.6);
+    --shadow-card: 0 10px 25px -5px hsl(220 30% 5% / 0.5);
 
     /* Animation Timing */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
